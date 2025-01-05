@@ -81,9 +81,9 @@ While this model demonstrates robust predictive capabilities, it is important to
 ## Conclusion
 This project highlights the potential of machine learning in healthcare to address pressing issues like diabetes management. By incorporating this predictive model into healthcare systems, we can reduce costs, improve health outcomes, and contribute to equitable healthcare practices.
 
-Abdullahi Olalekan Abdulmumeen
-Applied Data Scientist
-📧 olalekanabdulmumeen3@gmail.com
+Abdullahi Olalekan Abdulmumeen </br>
+Applied Data Scientist </br>
+📧 olalekanabdulmumeen3@gmail.com </br>
 
 #### Note:
 This model is a proof of concept and not intended for real-world deployment. For a custom, robust predictive model tailored to your specific needs, feel free to reach out.
