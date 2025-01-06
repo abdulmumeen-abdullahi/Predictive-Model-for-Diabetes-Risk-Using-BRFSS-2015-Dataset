@@ -10,20 +10,18 @@ The dataset used in this project originates from the Behavioral Risk Factor Surv
 ## Features Used
 After correlation analysis, the following 11 features were selected due to their strong correlation with the target variable (Diabetes_binary):
 
-![image](https://github.com/user-attachments/assets/e854a406-4659-4ee8-b8d0-25d4d17983a8)
-
-1. Diabetes_binary (Target Variable)
-2. HighBP
-3. HighChol
-4. BMI
-5. HeartDiseaseorAttack
-6. PhysActivity
-7. GenHlth
-8. PhysHlth
-9. DiffWalk
-10. Age
-11. Education
-12. Income
+1. Diabetes_binary (Target Variable): Indicates whether an individual has been diagnosed with diabetes (1) or not (0).
+2. HighBP (High Blood Pressure): Indicates if an individual has been diagnosed with high blood pressure (1) or not (0).
+3. HighChol (High Cholesterol): Indicates if an individual has been diagnosed with high cholesterol levels (1) or not (0).
+4. BMI (Body Mass Index): A numerical value representing the individual's body mass index, calculated from height and weight, used as an indicator of body fatness.
+5. HeartDiseaseorAttack: Indicates if an individual has ever had a heart disease or heart attack (1) or not (0).
+6. PhysActivity (Physical Activity): Indicates if an individual engages in regular physical activity (1) or not (0).
+7. GenHlth (General Health): Self-reported general health status, ranging from 1 (Excellent) to 5 (Poor).
+8. PhysHlth (Physical Health): Number of days in the past month when physical health was reported as "not good."
+9. DiffWalk (Difficulty Walking): Indicates if an individual has difficulty walking or climbing stairs (1) or not (0).
+10. Age: Represents the age of the individual ranging from 1 to 13.
+11. Education: Represents the individual's highest level of education, encoded as a categorical variable ranging from 1 (Less than High School) to 6 (Doctorate Degree).
+12. Income: Represents the individual's income level, encoded as a categorical variable ranging from 1 (Very Low Income) to 8 (Top Income).
 
 ## Methodology
 ### 1. Data Preprocessing
@@ -35,6 +33,9 @@ Generated a correlation matrix and a heatmap to identify relationships between f
 Notable correlations:
 - GenHlth (Correlation: 0.41)
 - HighBP (Correlation: 0.38)
+
+![download](https://github.com/user-attachments/assets/78bdc979-ca13-4997-a327-36292f7805ef)
+
 ### 3. Model Training
 - Split the dataset into training (80%) and testing (20%) sets.
 - Established a baseline model using the normalized value count of the target variable, yielding a benchmark accuracy of 50.04%.
@@ -45,6 +46,15 @@ Trained and evaluated multiple machine learning models, including:
 - Random Forest Classifier
 - Decision Tree Classifier
 Applied hyperparameter tuning to optimize model performance, calculating MAE for each model.
+### 5. Classification Report and Confusion Matrix
+The XGBoost Classifier achieved:
+
+- Precision = 0.78 for 0 class and 0.73 for 1 class </br>
+- Recall = 0.70 for 0 class and 0.80 for 1 class </br>
+- F1-Score = 0.74 for 0 class and 0.76 for 1 class </br>
+- True Negatives = 4994, True Positives = 5610, False Negatives = 2096, False Positives = 1439.
+
+![download](https://github.com/user-attachments/assets/ff6eaf68-df60-40f3-87aa-14b555a95aa8)
 
 ## Interactive Dash Application
 A user-friendly interactive web application was developed using Dash, featuring:
