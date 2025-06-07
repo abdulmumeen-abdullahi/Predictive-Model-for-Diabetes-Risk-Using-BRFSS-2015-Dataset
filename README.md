@@ -1,4 +1,4 @@
-# Predictive Modeling for Diabetes Risk Assessment: Leveraging Health Indicators for Early Intervention
+# Predictive Modeling for Diabetes Risk Assessment Using Health Indicators and Behavioral Risk Factors for Early Intervention
 ## Project Overview
 Diabetes is a widespread chronic disease affecting millions of Americans annually, imposing a significant financial burden on the economy. It impairs the body's ability to regulate blood glucose levels, leading to severe health complications such as heart disease, vision loss, limb amputation, and kidney disease. Diabetes occurs when the body either fails to produce sufficient insulin or cannot use insulin effectively—an essential hormone that enables cells to use sugar from the bloodstream for energy.
 
