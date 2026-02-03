@@ -69,8 +69,3 @@ This predictive tool offers significant benefits:
 ## ✅ Conclusion
 
 This project highlights the potential of machine learning in healthcare to address pressing issues like diabetes management. By integrating this predictive model into healthcare systems, we can reduce costs, improve health outcomes, and contribute to equitable healthcare practices.
-
-## 📞 Contact
-
-**Abdullahi Olalekan Abdulmumeen** <br/>
-📧 `olalekanabdulmumeen3@gmail.com`
